@@ -154,3 +154,39 @@ body {
     }
   }
 }
+
+@media screen and (max-width: 400px) {
+  .menu {
+    ul {
+      display: block;
+      li {
+        float: none;
+      }
+
+      li:not(:first-child) a {
+        display: none;
+      }
+    }
+
+    ul:hover li a {
+      display: list-item;
+    }
+  }
+
+  .hero-header {
+    .main-text {
+      font-size: 50px;
+    }
+  }
+
+  .div-one {  
+    .para-one {
+      width: 100%;
+    }
+
+    .para-two {
+      width: 100%;
+    }
+  }
+}
+
